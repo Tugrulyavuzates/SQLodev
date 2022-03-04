@@ -1,0 +1,10 @@
+SELECT title, description, length FROM film
+WHERE length BETWEEN 60 AND 75
+AND rental_rate = 0.99 AND replacement_cost = 12.99
+//ödevin ilk 3 şartı için gerekli komutlar yukarıdadır
+
+// 4. Soru: 'Smith'
+
+//5. Soru
+SELECT *  FROM film
+WHERE  film.length < 50 AND rental_rate != 2.99 OR  rental_rate != 4.99
